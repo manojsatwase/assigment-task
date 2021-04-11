@@ -1,0 +1,33 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.app {
+ width: 995px;
+ margin: 50px auto;
+}
+
+.movies {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 50px;
+}
+
+.movies__item {
+ max-height: 100%;
+ max-width: 200px;
+}
+
+.movies__image {
+ width: 200px;
+}
+
+.movies__title {
+ font-family: sans-serif;
+ font-size: 1.2rem;
+ font-weight: bold;
+ margin: 10px 0;
+}
